@@ -1,0 +1,44 @@
+body{
+    color: black;
+    background-color: white;
+    
+    
+}
+
+#colorChange-content{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    border: 2px solid lightblue;
+    margin: 2%;
+    padding: 2%;
+}
+#navbar{
+    background-color: azure;
+    border-bottom: 2px solid lightblue;
+    border-top:2px solid lightblue
+}
+
+
+
+
+
+body.darkmode{
+    color: lightcoral;
+    background-color: rgb(62, 56, 99);
+}
+body.darkmode #color-button{
+    background-color: inherit;
+}
+body.darkmode #colorChange-content{
+    border: 2px solid orchid;
+}
+body.darkmode #navbar{
+    background-color: inherit;
+    border-top: 2px solid orchid;
+    border-bottom: 2px solid orchid;
+    a{
+        color: darkorange;
+    }
+
+}
