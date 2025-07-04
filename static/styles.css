@@ -22,12 +22,11 @@ body{
     border-top:2px solid lightblue
 }
 .flex-container{
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     background-color: azure;
     border: 3px solid lightblue;
     max-width: 100%;
-    margin: 10%;
+    margin: 3%;
     height: auto;
 }
 #image-container{
